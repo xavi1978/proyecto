@@ -1,10 +1,6 @@
-### Nom del projecte:
-
-Top-ten.
-
 ### Explicació previa
 
-La intenció és crear una web de temàtica original i finalitat divulgativa, editable col·laborativament pels usuaris.
+La intenció és, aplicant els coneixements adquirits durant el curs, crear una web de temàtica original i finalitat divulgativa, editable col·laborativament pels usuaris.
 
 ### Pluja d'idees:
 
@@ -18,20 +14,20 @@ Descartada per la seva complexitat.
 
 Terminal de gestió de vols virtual amb registre d'embarcament i base de dades de vols programats.
 
-Descartada per desinterès.
+Descartada per falta d'interès.
 
 #### 3- Cartellera
 
 Cartellera amb informació i tràilers sobre pel·lícules
 en cartell i cinemes i horaris on es projecten.
 
-Descartada per la seva simplicitat.
+Descartada per la seva senzillesa.
 
 #### 4- Blog notícies
 
 Blog noticies amb portada, seccions informatives i articles.
 
-Descartada per desinterès.
+Descartada per manca d'originalitat.
 
 #### 5- Receptari
 
@@ -67,14 +63,14 @@ Descartada per la seva complexitat.
 
 Lloc web de valoració de productes amb fil de comentaris i sistema de puntuació.
 
-Descartada per la seva simplicitat.
+Descartada per la seva elementarietat.
 
 #### 11- Mailing
 
 Client de correu amb enviament de missatges
 entre usuaris amb editor integrat i llibreta virtual de contactes.
 
-Descartada per la seva complexitat.
+Descartada per la seva senzillesa.
 
 #### 12- Lloc web de llistes top ten
 
@@ -82,6 +78,10 @@ Lloc web divulgatiu amb llistes 'top-ten' classificades per temàtica editable
 col·laborativament pels usuaris.
 
 Escullo aquesta idea per la seva originalitat.
+
+### Nom del projecte:
+
+**Top-ten.**
 
 ### Descripció del projecte
 
@@ -98,14 +98,13 @@ editables via formulari i categoritzades temàticament.
 El projecte és factible tècnicament i la seva viabilitat és assolible considerant una base d'usuaris editors suficient per
 augmentar el contingut del lloc web.
 
-### Usuaris potencials
+#### Usuaris potencials
 
-Els usuaris potencials del lloc web són qualsevol persona amb inquietud informativa a l'hora
-de consultar-lo i/o voluntat divulgativa en editar-lo.
+Els usuaris potencials del lloc web són qualsevol persona que sàpiga fer servir bàsicament un ordinador, amb inquietud informativa a l'hora de consultar-lo i/o voluntat divulgativa en editar-lo.
 
-### Mercat a cobrir
+#### Mercat a cobrir
 
-El mercat a cobrir pel projecte és el públic general com a audiència consultiva i un sector més
+El mercat a cobrir pel projecte és el públic general amb coneixement bàsic informàtic com a audiència consultiva i un sector més
 reduït com a agents editors amb finalitat divulgativa.
 
 ### Documentació técnica
@@ -122,11 +121,25 @@ El projecte consistirà en cinc pàgines HTML, un full d'estil CSS, 3 fitxers de
 
 #### Eines
 
-S'utilitzarà GitHub per a portar el control de versions, la web freemysqlhosting.net per a tenir una base de dades externalitzada, Heroku com a servidor PHP, Composer per a mantenir les llibreries actualitzades, Recaptcha de Google per a verificar el registre i l'inici de sessió.
+S'utilitzarà:
+
+- **HTML**, **CSS** , **JavaScript**, **Ajax** i **JQuery** per a programar el lloc web.
+
+- **GitHub** per a portar el control de versions.
+
+- La web **freemysqlhosting.net** per a tenir una base de dades **MySQL** externalitzada.
+
+- **Heroku** com a servidor PHP.
+
+- **Composer** per a mantenir les llibreries actualitzades.
+
+- **PHPMailer** per a l'enviament de correu.
+
+- **Recaptcha** de Google per a verificar el registre i l'inici de sessió.
 
 #### Diagrama de Gantt
 
-Enllaçat en un fitxer apart: gantt.xlsx
+Enllaçat en un fitxer apart: [gantt.xlsx](./gantt.xlsx)
 
 #### Wireframes
 
@@ -142,13 +155,19 @@ Enllaçat en un fitxer apart: gantt.xlsx
 
 #### Mockups
 
+![Mockup de index.html](./mockup_index.png)
+![Mockup de registrarse.html](./mockup_registrarse.png)
+![Mockup de login.html](./mockup_login.png)
+![Mockup de searchlist.html](./mockup_searchlist.png)
+![Mockup de editlist.html](./mockup_editlist.png)
+
 ### Casos d'ús
 
 - Registrar usuari.
 
 - Iniciar sessió usuari.
 
-- Introduir llista.
+- Crear llista.
 
 - Cercar llista.
 
@@ -167,7 +186,7 @@ _Iniciar sessió_
 Serà possible l'inici de sessió com a editor registrat contra una base de dades externa, introduint e-mail i contrasenya en un formulari. L'inici de sessió
 estarà verificat per 'captcha'.
 
-_Introduir llista_
+_Crear llista_
 
 L'usuari registrat i acreditat podrà afegir una llista mitjançant un formulari amb un selector per a la categoria temàtica, un camp de text per al títol i 10 camps de text per a cadascun dels elements que componen la llista.
 
