@@ -5,10 +5,11 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link rel="stylesheet" href="estil.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 		<script defer src="login.js"></script>
 		<script src="https://www.google.com/recaptcha/api.js?render=6Ld-vlQgAAAAANx6tH9cFTC2T4tTvgbjW44BulFI"></script>
-		<style>
+		<!-- <style>
 			div {
 				margin: 20px;
 				padding: 20px;
@@ -29,10 +30,11 @@
 			.grecaptcha-badge {
 				visibility: hidden;
 			}
-		</style>
+		</style> -->
 	</head>
 	<body>
-		<div id="signUp" style="background-color: yellow">
+		<!-- <div id="signUp" style="background-color: yellow"> -->
+		<div id="signUp">
 			<h2>Login</h2>
 
 			<label>E-mail:</label><br />
@@ -40,7 +42,7 @@
 				type="text"
 				id="emailSignup"
 				placeholder="Email"
-				value="eric.casanova@cesi.info"
+				value="pepito@cesi.info"
 			/><br />
 
 			<label>Password:</label><br />
@@ -48,14 +50,16 @@
 				type="password"
 				id="passwordSignup"
 				placeholder="Password"
-				value="1234a"
+				value="bbbb"
 			/><br />
 			<!-- type="hidden"-->
 			<input
+				type="hidden"
 				id="g-recaptcha-response"
 				name="g-recaptcha-response"
 			/><br /><br />
-			<button id="buttonRegistro" disabled>Sign Up</button>
+			<button id="buttonRegistro">Cancel·lar</button>
+			<button id="buttonRegistro" disabled>Login</button>
 		</div>
 	</body>
 </html>
