@@ -5,18 +5,74 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link rel="stylesheet" href="estil.css" />
 	</head>
 	<body>
-		<nav>
+		<div class="bg">
+			<h1>Top-<br />ten</h1>
+			<nav id="controls">
 			<div id="notRegister">
-				<a href="registrarse.html"><button>SignUp</button></a>
-				<a href="login.html"><button>SignIn</button></a>
+				<select placeholder="Sel. tema">
+					<option>Geografia</option>
+					<option>Esports</option>
+					<option>Historia</option>
+					<option>Economia</option>
+					</select>
+				<input type="text" placeholder="Cercar llista per títol"></input>
+				<a href="searchlist.html"><button>Cerca</button></a>
+				<a href="registrarse.html"><button>Registrar-se</button></a>
+				<a href="login.html"><button>Iniciar sessió</button></a>
 			</div>
 			<div style="visibility: hidden" id="divUsuario">
 				<a href="#"><button id="usuario"></button></a>
 				<a href="#"><button>LogOut</button></a>
 			</div>
 		</nav>
+	
+		<section class="carousel" aria-label="Gallery">
+			<ol class="carousel__viewport">
+				<li id="carousel__slide1" tabindex="0" class="carousel__slide">
+					<div class="carousel__snapper">
+						<a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+						<a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+					</div>
+				</li>
+				<li id="carousel__slide2" tabindex="0" class="carousel__slide">
+					<div class="carousel__snapper"></div>
+					<a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+					<a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+				</li>
+				<li id="carousel__slide3" tabindex="0" class="carousel__slide">
+					<div class="carousel__snapper"></div>
+					<a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+					<a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+				</li>
+				<li id="carousel__slide4" tabindex="0" class="carousel__slide">
+					<div class="carousel__snapper"></div>
+					<a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+					<a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+				</li>
+			</ol>
+			<aside class="carousel__navigation">
+				<ol class="carousel__navigation-list">
+					<li class="carousel__navigation-item">
+						<a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+					</li>
+					<li class="carousel__navigation-item">
+						<a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+					</li>
+					<li class="carousel__navigation-item">
+						<a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+					</li>
+					<li class="carousel__navigation-item">
+						<a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+					</li>
+				</ol>
+			</aside>
+		</section>
+		
+		</div>
+		
 		<script>
 			if (getCookie("nombre")) {
 				document.getElementById("notRegister").style.visibility = "hidden";
