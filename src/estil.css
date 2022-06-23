@@ -269,7 +269,7 @@ li {
 	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
 
-/* login.html, registrarse.html */
+/* login.html, registrarse.html, editlist.html*/
 
 .inputSuccess {
 	background-color: rgb(29, 101, 0);
@@ -283,7 +283,7 @@ li {
 	visibility: hidden;
 }
 
-#signUp {
+#formulari {
 	background-color: rgb(185, 185, 185);
 	position: absolute;
 	padding: 30px;
@@ -294,4 +294,14 @@ li {
 	-moz-border-radius: 20px;
 	-ms-border-radius: 20px;
 	-o-border-radius: 20px;
+}
+
+#formulari select {
+	padding: 10px;
+	margin: 10px;
+}
+
+#formulari input {
+	padding: 10px;
+	margin: 10px;
 }
