@@ -1,3 +1,7 @@
+### Explicació previa
+
+La intenció és, aplicant els coneixements adquirits durant el curs, crear una web de temàtica original i finalitat divulgativa, editable col·laborativament pels usuaris.
+
 ### Nom del projecte:
 
 **Top-ten.**
@@ -12,16 +16,21 @@ ordenades per categoria temàtica i editables de forma col·laborativa pels usua
 El lloc web conté llistes classificatòries tipus 'top-ten' com a llistes ordenades
 editables via formulari i categoritzades temàticament.
 
-### Punts forts del projecte
+### Viabilitat
 
-El projecte té una amplia base d'usuaris potencials, integrada per qualsevol persona que sàpiga fer servir bàsicament un ordinador, amb inquietud informativa a l'hora de consultar-lo i/o voluntat divulgativa en editar-lo.
+El projecte és factible tècnicament i la seva viabilitat és assolible considerant una base d'usuaris editors suficient per
+augmentar el contingut del lloc web.
 
-A més la seva escalabilitat és beneficia d'una base d'usuaris editors suficient per
-augmentar de forma simple el contingut del lloc web.
+#### Usuaris potencials
+
+Els usuaris potencials del lloc web són qualsevol persona que sàpiga fer servir bàsicament un ordinador, amb inquietud informativa a l'hora de consultar-lo i/o voluntat divulgativa en editar-lo.
+
+#### Mercat a cobrir
+
+El mercat a cobrir pel projecte és el públic general amb coneixement bàsic informàtic com a audiència consultiva i un sector més
+reduït com a agents editors amb finalitat divulgativa.
 
 ### Documentació técnica
-
-#### Base de dades
 
 #### Base
 
@@ -35,7 +44,7 @@ El projecte consisteix en cinc pàgines HTML, un full d'estil CSS, 3 fitxers de 
 
 #### Eines
 
-S'ha utilitzat:
+S'utilitzarà:
 
 - **HTML**, **CSS** , **JavaScript**, **Ajax** i **JQuery** per a programar el lloc web.
 
@@ -55,6 +64,26 @@ S'ha utilitzat:
 
 Enllaçat en un fitxer apart: [gantt.xlsx](./gantt.xlsx)
 
+#### Wireframes
+
+![Wireframe de index.html](./wf_index.png)
+![Wireframe de registrarse.html](./wf_registrarse.png)
+![Wireframe de login.html](./wf_login.png)
+![Wireframe de searchlist.html](./wf_searchlist.png)
+![Wireframe de editlist.html](./wf_editlist.png)
+
+#### Paths
+
+![Paths](./paths.png)
+
+#### Mockups
+
+![Mockup de index.html](./mockup_index.png)
+![Mockup de registrarse.html](./mockup_registrarse.png)
+![Mockup de login.html](./mockup_login.png)
+![Mockup de searchlist.html](./mockup_searchlist.png)
+![Mockup de editlist.html](./mockup_editlist.png)
+
 ### Casos d'ús
 
 - Registrar usuari.
@@ -73,7 +102,7 @@ Enllaçat en un fitxer apart: [gantt.xlsx](./gantt.xlsx)
 
 _Registrar usuari_
 
-L'usuari pot registrar-se com a editor a una base de dades externa, amb un formulari que requereix nom, e-mail, telèfon i contrasenya. El registre està verificat via 'captcha' i confirmat per correu electrònic.
+L'usuari pot registrar-se com a editor a una base de dades externa, amb un formulari que requerirà nom, e-mail, telèfon i contrasenya. El registre està verificat via 'captcha' i confirmat per correu electrònic.
 
 _Iniciar sessió_
 
